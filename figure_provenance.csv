@@ -1,0 +1,12 @@
+Figure,AnalysisCSV,Query,Aggregation,ManuscriptFigure
+within_accuracy,figure_inputs/final_submission_snapshot/summary_from_records.csv,"Main / within / standard; three representations, five classifiers",Five-seed mean and sample standard deviation,4
+within_macrof1,figure_inputs/final_submission_snapshot/summary_from_records.csv,"Main / within / standard; three representations, five classifiers",Five-seed mean and sample standard deviation,
+within_confusion,figure_inputs/final_submission_snapshot/confusion_from_records.csv,Main / within / standard / fusion / RBF SVM,Row percentages of pooled evaluation counts across seeds 42-46,5
+cross_macrof1,figure_inputs/final_submission_snapshot/summary_from_records.csv,Main / seven external tasks / standard,Five-seed mean Macro-F1 (%),6
+coral_comparison,figure_inputs/final_submission_snapshot/summary_from_records.csv,Main / CWRU-MFPT directions / fusion / standard versus CORAL,Five-seed mean and sample standard deviation (%),7
+mechanism_added_to_tf,figure_inputs/final_submission_snapshot/summary_from_records.csv,TF_speed versus TFM_speed,Difference of five-seed mean Macro-F1 (percentage points),
+tf_added_to_mechanism,figure_inputs/final_submission_snapshot/summary_from_records.csv,Mechanism_speed versus TFM_speed,Difference of five-seed mean Macro-F1 (percentage points),
+mechanism_added_to_cnn_tf,figure_inputs/final_submission_snapshot/summary_from_records.csv,CNN_TF_speed versus DualPhyNet_fusion,Difference of five-seed mean Macro-F1 (percentage points),8
+learned_tfm_vs_raw,figure_inputs/final_submission_snapshot/summary_from_records.csv,Raw_TFM_speed versus TFM_speed,Difference of five-seed mean Macro-F1 (percentage points),
+fusion_vs_raw,figure_inputs/final_submission_snapshot/summary_from_records.csv,Raw_TFM_speed versus DualPhyNet_fusion,Difference of five-seed mean Macro-F1 (percentage points),9
+matched_capacity_comparison,figure_inputs/final_submission_snapshot/summary_from_records.csv,Matched fusion versus better matched single branch,"100 * (mean Matched_fusion - max(mean Matched_CNN_speed, mean Matched_TFM_speed)), within each task and classifier",10

@@ -1,0 +1,26 @@
+{
+  "title": "Prediction records for mechanism-based feature fusion in bearing fault diagnosis",
+  "creators": [
+    "Qiang Wang",
+    "Fang Zhang",
+    "San Zhang"
+  ],
+  "contact": "taoy.hai.hu@gmail.com",
+  "version": "1.0.0",
+  "repository_identifier": "https://github.com/ForceTaoy/DualPhyNet-prediction-records",
+  "license": "CC-BY-4.0",
+  "publication_status": "GitHub data release",
+  "software_environment": "MATLAB R2022b; NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+  "files": "Six experiment-family/partition ZIP archives plus CSV tables and metadata",
+  "contains_training_source_code": false,
+  "contains_raw_vibration_data": false,
+  "supports_complete_training_reproduction": false,
+  "funding_ids": [
+    "1222-2604003",
+    "25JRZE003"
+  ],
+  "version_identifier": "https://github.com/ForceTaoy/DualPhyNet-prediction-records/tree/v1.0.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "date": "2026-10-19",
+  "doi": null
+}

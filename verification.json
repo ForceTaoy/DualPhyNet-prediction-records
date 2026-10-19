@@ -1,0 +1,19 @@
+{
+  "PredictionFiles": 510,
+  "ClassifierEvaluationsRecomputed": 2550,
+  "EvaluatedRows": 6004355,
+  "MetricTolerance": 1e-12,
+  "Mismatches": [],
+  "CommonTruthChecksPassed": true,
+  "SourceCodeIncluded": false,
+  "RawSignalsIncluded": false,
+  "RetrainingReproducibleFromThisPackage": false,
+  "ArchiveBytes": {
+    "CORAL_alignment.zip": 862751,
+    "Main_representation_comparison.zip": 23306593,
+    "Matched_capacity.zip": 23153755,
+    "Mechanism_ablation.zip": 23336547,
+    "Partitions_and_metadata.zip": 6868573,
+    "Raw_handcrafted_baseline.zip": 7846388
+  }
+}

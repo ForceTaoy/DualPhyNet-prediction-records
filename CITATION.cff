@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite this dataset and its version when using the prediction records or derived tables."
+type: dataset
+title: "Prediction records for mechanism-based feature fusion in bearing fault diagnosis"
+authors:
+  - family-names: Wang
+    given-names: Qiang
+  - family-names: Zhang
+    given-names: Fang
+  - family-names: Zhang
+    given-names: San
+version: 1.0.0
+date-released: 2026-10-19
+license: CC-BY-4.0
+url: "https://github.com/ForceTaoy/DualPhyNet-prediction-records/tree/v1.0.0"
+abstract: "Saved sample-level true and predicted labels, partitions, and derived analysis tables for 510 bearing fault-classification runs and 2550 classifier evaluations. Training source code, raw signals, and fitted models are not included."
+keywords:
+  - bearing fault diagnosis
+  - feature fusion
+  - prediction records
+  - cross-dataset evaluation

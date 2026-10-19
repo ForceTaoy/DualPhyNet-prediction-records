@@ -1,0 +1,23 @@
+{
+  "Source": "Metric tables recomputed from verified sample-level prediction records",
+  "Units": "Metric proportions multiplied by 100 for plotted percentages; differences in percentage points",
+  "Portability": "PredictionCSV fields use Archive.zip::member paths; no source programs are provided.",
+  "Inputs": [
+    {
+      "Path": "figure_inputs/final_submission_snapshot/summary_from_records.csv",
+      "SHA256": "f769e92751532df9e0d1f76ba80461e8351a603f0c5f1a078f6f975d93c71d88"
+    },
+    {
+      "Path": "figure_inputs/final_submission_snapshot/metrics_from_records.csv",
+      "SHA256": "66e9a2c09856f7b94e98dacf57b68629dcab34bab5f94e9c6194f9f1748e4089"
+    },
+    {
+      "Path": "figure_inputs/final_submission_snapshot/per_class_from_records.csv",
+      "SHA256": "7f80c568e4c1d8b8f39d46587561d6abeee2494eeb283c11fdcfec83d21d3c58"
+    },
+    {
+      "Path": "figure_inputs/final_submission_snapshot/confusion_from_records.csv",
+      "SHA256": "a403475a250ec2452821a9c4afabc17b1b08050da5d1c59e8a0dba6a24161f42"
+    }
+  ]
+}

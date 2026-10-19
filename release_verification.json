@@ -1,0 +1,14 @@
+{
+  "Version": "1.0.0",
+  "License": "CC-BY-4.0",
+  "PredictionCSVCount": 510,
+  "DataArchivesByteIdenticalToVerifiedSubmission": true,
+  "OnlyCSVFilesInsideArchives": true,
+  "AbsoluteMachinePathsDetected": [],
+  "ContainsSourceCode": false,
+  "ContainsRawSignals": false,
+  "ContainsFittedModels": false,
+  "BasedOnVerification": "verification.json",
+  "RepositoryURL": "https://github.com/ForceTaoy/DualPhyNet-prediction-records",
+  "ReleaseContentVerified": true
+}

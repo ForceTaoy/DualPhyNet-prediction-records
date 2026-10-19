@@ -1,0 +1,63 @@
+Field,Meaning
+Bagged_Trees_Correct,1 for a prediction equal to TrueLabel; 0 otherwise (Bagged_Trees).
+Bagged_Trees_PredLabel,Predicted class from Bagged_Trees.
+Bagged_Trees_PredLabelDescription,English expansion of the predicted class from Bagged_Trees.
+BearingID,Retained physical bearing identifier used for group separation.
+Condition,"Experimental condition, such as standard or coral."
+Dataset,Dataset associated with the partition row.
+ExperimentID,Unique identifier for a run within its protocol; combine with ProtocolID in the registry.
+FC_Softmax_Correct,1 for a prediction equal to TrueLabel; 0 otherwise (FC_Softmax).
+FC_Softmax_PredLabel,Predicted class from FC_Softmax.
+FC_Softmax_PredLabelDescription,English expansion of the predicted class from FC_Softmax.
+FileName,"Retained measurement filename, without an absolute machine path."
+GeometryPolicy,Bearing geometry rule used during feature calculation.
+Label,Actual class in a partition or measurement manifest.
+Linear_SVM_Correct,1 for a prediction equal to TrueLabel; 0 otherwise (Linear_SVM).
+Linear_SVM_PredLabel,Predicted class from Linear_SVM.
+Linear_SVM_PredLabelDescription,English expansion of the predicted class from Linear_SVM.
+LoadHorsepower,"Motor load in horsepower; provenance only, not a model input."
+LoadLevel,Retained normalized load metadata; not a model input.
+MotorLoadPowerW,Motor load converted to watts; provenance only.
+OriginalRecordingID,Retained recording-group identifier; legacy mappings may be incomplete.
+RBF_SVM_Correct,1 for a prediction equal to TrueLabel; 0 otherwise (RBF_SVM).
+RBF_SVM_PredLabel,Predicted class from RBF_SVM.
+RBF_SVM_PredLabelDescription,English expansion of the predicted class from RBF_SVM.
+RPM,Rotational speed in revolutions per minute (r/min).
+RadialLoadLbf,Radial load in pounds-force; provenance only.
+RadialLoadN,Radial load converted to newtons; provenance only.
+Representation,Feature representation or control configuration.
+SampleID,Stable segment identifier; repeated across evaluated configurations as appropriate.
+Seed,Random seed (42 through 46).
+SegmentIndex,One-based segment index within a measurement.
+SegmentLength,Window length in signal points (2048).
+SegmentStart,One-based starting sample point.
+SegmentStride,Distance in signal points between adjacent window starts (500).
+SourceSensor,Sensor channel identifier.
+Source_BearingID,Retained physical bearing identifier used for group separation.
+Source_FileName,"Retained measurement filename, without an absolute machine path."
+Source_GeometryPolicy,Bearing geometry rule used during feature calculation.
+Source_LoadHorsepower,"Motor load in horsepower; provenance only, not a model input."
+Source_LoadLevel,Retained normalized load metadata; not a model input.
+Source_MotorLoadPowerW,Motor load converted to watts; provenance only.
+Source_OriginalRecordingID,Retained recording-group identifier; legacy mappings may be incomplete.
+Source_RPM,Rotational speed in revolutions per minute (r/min).
+Source_RadialLoadLbf,Radial load in pounds-force; provenance only.
+Source_RadialLoadN,Radial load converted to newtons; provenance only.
+Source_SegmentIndex,One-based segment index within a measurement.
+Source_SegmentLength,Window length in signal points (2048).
+Source_SegmentStart,One-based starting sample point.
+Source_SegmentStride,Distance in signal points between adjacent window starts (500).
+Source_SourceSensor,Sensor channel identifier.
+Source_WorkStatus,Retained bearing condition metadata.
+Task,Dataset combination and train/test direction.
+Test,1 if assigned to the source-side held-out test; otherwise 0. External testing is identified by the run registry.
+TestDataset,Dataset providing the independent test rows.
+TestRowIndex,One-based index of the row within this run's test set.
+Train,1 if the row is assigned to source training; otherwise 0.
+TrueLabel,"Actual test class: Normal, IR, OR, or B where applicable."
+TrueLabelDescription,English expansion of TrueLabel.
+Validation,1 if assigned to source validation; otherwise 0.
+WorkStatus,Retained bearing condition metadata.
+kNN_Correct,1 for a prediction equal to TrueLabel; 0 otherwise (kNN).
+kNN_PredLabel,Predicted class from kNN.
+kNN_PredLabelDescription,English expansion of the predicted class from kNN.
