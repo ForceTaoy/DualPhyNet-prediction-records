@@ -22,5 +22,7 @@
   "version_identifier": "https://github.com/ForceTaoy/DualPhyNet-prediction-records/tree/v1.0.0",
   "license_url": "https://creativecommons.org/licenses/by/4.0/",
   "date": "2026-10-19",
-  "doi": null
+  "doi": null,
+  "related_manuscript_title": "Mechanism-Informed Feature Fusion for Bearing Fault Diagnosis: A Controlled Cross-Dataset Evaluation",
+  "metadata_updated": "2026-10-20"
 }

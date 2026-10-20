@@ -1,6 +1,6 @@
 # Bearing feature-fusion prediction records
 
-Version 1.0.0 accompanies the manuscript **Mechanism-based feature fusion for bearing fault diagnosis and cross-dataset evaluation** by Qiang Wang, Fang Zhang and San Zhang. Correspondence: taoy.hai.hu@gmail.com.
+Version 1.0.0 accompanies the manuscript **Mechanism-Informed Feature Fusion for Bearing Fault Diagnosis: A Controlled Cross-Dataset Evaluation** by Qiang Wang, Fang Zhang and San Zhang. Correspondence: taoy.hai.hu@gmail.com.
 
 The data are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Cite the authors, this record and the version used, and indicate changes. The license applies to the author-generated records and documentation in this repository. Original third-party datasets are not redistributed or relicensed.
 
@@ -66,3 +66,7 @@ Figures 4–10 are linked to their numerical input snapshots by `figure_provenan
 Wang, Q., Zhang, F., Zhang, S. (2026). Prediction records for mechanism-based feature fusion in bearing fault diagnosis (Version 1.0.0) [Data set]. GitHub. https://github.com/ForceTaoy/DualPhyNet-prediction-records/tree/v1.0.0
 
 See `CITATION.cff`. The versioned GitHub record has no assigned DOI. Preserve the version and checksums when redistributing or analyzing these records.
+
+## Manuscript title update
+
+On 20 October 2026, the associated manuscript title was updated to the title shown above. Prediction records and numerical analysis files remain identical to Version 1.0.0. The [original data snapshot](https://github.com/ForceTaoy/DualPhyNet-prediction-records/tree/c58a72ab3ae2c3749b7c1583eb601926211ae260), the dataset citation title, and the v1.0.0 branch are unchanged. This update changes only manuscript-related metadata and its checksums.
